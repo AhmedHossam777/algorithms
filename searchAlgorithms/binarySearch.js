@@ -15,6 +15,7 @@ const binarySearch = (arr, target) => {
       leftIndex = middleIndex + 1;
     }
   }
+  return -1;
 };
 
 console.log(binarySearch(arr, 9));
